@@ -7,6 +7,7 @@
         {
             "name": "continuo",
             "instrument": "bass",
+            "dynamic": 4,
             "notes": [
                 "| 1", "r", "r", "fs",
                 "| 2", "b", "fs", "d",
@@ -89,6 +90,7 @@
         {
             "name": "viola",
             "instrument": "harp",
+            "dynamic": 1,
             "notes": [
                 "||1",
                 "||2",
@@ -175,6 +177,7 @@
         {
             "name": "violin II",
             "instrument": "harp",
+            "dynamic": 1,
             "notes": [
                 "||1",
                 "||2",
@@ -261,6 +264,7 @@
         {
             "name": "violin I",
             "instrument": "harp",
+            "dynamic": 1,
             "notes": [
                 "||1",
                 "||2",
@@ -336,8 +340,8 @@
                 "| 68", "g_", "a_", "fs_",
                 "| 69", "e_ 2b", "e_",
                 "| 70", "f_", "a_", "c",
-                "| 71", "f", "ds", { "name": "e 2b", "sustain": true },
-                "g 1", "fs 1", "e 1", "ds 1",
+                "| 71", "f", "ds", "e",
+                "| 72", "e", "g 1", "fs 1", "e 1", "ds 1",
                 "| 73", "e 3b"
             ]
         },
@@ -345,6 +349,7 @@
         {
             "name": "oboe II",
             "instrument": "bell",
+            "dynamic": 1,
             "notes": [
                 "||1",
                 "||2",
@@ -412,8 +417,8 @@
                 "| 68", "g_", "a_", "fs_",
                 "| 69", "e_ 2b", "e_",
                 "| 70", "f_", "a_", "c",
-                "| 71", "f", "ds", { "name": "e 2b", "sustain": true },
-                "g 1", "fs 1", "e 1", "ds 1",
+                "| 71", "f", "ds", "e",
+                "| 72", "e", "g 1", "fs 1", "e 1", "ds 1",
                 "| 73", "e 3b"
             ]
         },
@@ -421,6 +426,7 @@
         {
             "name": "oboe I",
             "instrument": "bell",
+            "dynamic": 1,
             "notes": [
                 "||1",
                 "||2",
@@ -488,8 +494,8 @@
                 "| 68", "g_", "a_", "fs_",
                 "| 69", "e_ 2b", "e_",
                 "| 70", "f_", "a_", "c",
-                "| 71", "f", "ds", { "name": "e 2b", "sustain": true },
-                "g 1", "fs 1", "e 1", "ds 1",
+                "| 71", "f", "ds", "e",
+                "| 72", "e", "g 1", "fs 1", "e 1", "ds 1",
                 "| 73", "e 3b"
             ]
         },
@@ -498,6 +504,7 @@
             "name": "flute",
             "instrument": "bell",
             "transpose": -12,
+            "dynamic": 1,
             "notes": [
                 "||1",
                 "||2",
@@ -567,8 +574,8 @@
                 "| 68", "g_", "a_", "fs_",
                 "| 69", "e_ 2b", "e_",
                 "| 70", "f_", "a_", "c",
-                "| 71", "f", "ds", { "name": "e 2b", "sustain": true },
-                "g 1", "fs 1", "e 1", "ds 1",
+                "| 71", "f", "ds", "e",
+                "| 72", "e", "g 1", "fs 1", "e 1", "ds 1",
                 "| 73", "e 3b"
             ]
         },
@@ -576,6 +583,7 @@
         {
             "name": "bass",
             "instrument": "guitar",
+            "dynamic": 3,
             "notes": [
                 "| 1", "r", "r", "fs",
                 "| 2", "b", "fs", "d",
@@ -736,6 +744,7 @@
         {
             "name": "alto",
             "instrument": "bit",
+            "dynamic": 3,
             "notes": [
                 "||1",
                 "||2",

@@ -55,17 +55,15 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
     For maximum performance, create a new world in creative mode, peaceful difficulty, superflat type, and no generated structures.
 
 4. If you are inside the world, exit it first. Then,
-
-    Generate:
     ```
-    noteblock-generator [path to coro1.json] [path to minecraft world] --clear -o + + -
+    noteblock-generator --clear [path to coro1.json] [path to minecraft world] --orientation + + -
 
-    noteblock-generator [path to coro2.json] [path to minecraft world] --clear -o + + +
+    noteblock-generator --clear [path to coro2.json] [path to minecraft world] --orientation + + +
     ```
 
 5. `noteblock-generator` is not capable of automatically handling double orchestras & choruses (yet), so this last step must be done manually.
 
-    Connect the two structures with a single redstone wire, like this: ![screenshot](screenshot.png)
+    Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)
 
 ## License
 Do whatever you want.

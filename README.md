@@ -8,7 +8,7 @@ Noteblock's capabilities are quite limited, so lots of compromises had to be mad
 
 Key: G-sharp minor (transposed up 4 semitones from original)
 
-Tempo: quarter note = 150 bpm (about 25% slower than a typical performance)
+Tempo: Eighth note = 150 bpm (about 25% slower than a typical performance)
 
 Instrumentation:
 * Basso continuo: bass

@@ -3,28 +3,22 @@
 
 Recording: https://youtu.be/38oW2-jAk6k
 
+Note: The structure shown in the YouTube video was made at commit [e08cba0](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/e08cba0fd2dee93d267b618ae4f70846e8c5f646). A few improvements have been made since then. You can revert to this commit to get an exact replica of what was shown in the video.
+
 ## Arrangement
-Noteblock's capabilities are quite limited, so lots of compromises had to be made.
-
-Key: G-sharp minor (transposed up 4 semitones from original)
-
-Tempo: Eighth note = 150 bpm (about 25% slower than a typical performance)
-
 Instrumentation:
-* Continuo: bass
-* Bass: guitar
-* Tenor: iron xylophone
-* Alto: bit
 * Soprano: flute
+* Alto: bit
+* Tenor: iron xylophone
+* Bass: guitar
+* Oboe I, oboe II, flute: bell
 * Violin I, violin II, viola: harp
-* Oboe I, oboe II, flute: bell 
+* Continuo: bass
 
-While I try to keep the voices as close to original as possible, lots of individual notes and passages in the orchestra are transposed up or down an octave in order to fit their instrument's range.
+Transposed up 4 semitones to better fit noteblock's ranges. However, a few notes still do not fit, then they are either transposed up/down an octave or played by a different instrument, depending on which sounds better to me.
 
 ## Play requirement
 Minecraft java 1.18+
-
-If your device supports it, turn on Directional Audio to enjoy the double orchestras & choruses in stereo.
 
 ## Easy install 
 Copy the `World` folder into your saves.
@@ -65,6 +59,8 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
 5. `noteblock-generator` is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
 
     Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)
+
+Note: The structure shown in the YouTube video was generated using [noteblock-generator 0.1.2.1](https://pypi.org/project/noteblock-generator/0.1.2.1/). You must install this version to get an exact replica of what was shown in the video.
 
 ## License
 Do whatever you want.

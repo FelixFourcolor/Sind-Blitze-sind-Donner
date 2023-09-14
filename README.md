@@ -63,4 +63,4 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
     Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)
 
 ## License
-Do whatever you want.
+This project, including the uploaded YouTube video, is given to the public domain. No rights reserved.

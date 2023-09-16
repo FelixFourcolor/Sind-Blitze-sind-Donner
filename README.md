@@ -58,9 +58,6 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
 
     Wait for the program to finish, then head inside.
 
-5. `noteblock-generator` is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
+5. [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator) is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
 
     Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)
-
-## License
-This project, including the uploaded YouTube video, is given to the public domain. No rights reserved.

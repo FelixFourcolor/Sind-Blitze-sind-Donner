@@ -21,7 +21,7 @@ Transposed up 4 semitones to better fit noteblock's ranges. However, a few notes
 Minecraft java 1.18+
 
 ## Easy install 
-Copy the [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/master/World) folder into your saves.
+Copy the [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/World) folder into your saves.
 
 To obtain the folder, you may clone the repo or use third-party tools such as [Down-Git](https://minhaskamal.github.io/DownGit) to download it.
 
@@ -31,7 +31,7 @@ To obtain the folder, you may clone the repo or use third-party tools such as [D
 * pip
 
 ### Overview of the build process
-The structure is *almost* auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/master/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/master/coro2.json) which define the composition, and generates the structure inside an existing Minecraft world.
+The structure is *almost* auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro2.json) which define the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
@@ -41,7 +41,7 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
     ```
     Configure your PATH so that `noteblock-generator` is executable on the command line.
 
-2. Obtain [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/master/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/master/coro2.json). You may clone the repo or download just those files.
+2. Obtain [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro2.json). You may clone the repo or download just those files.
 
 3. Obtain a world in Minecraft java 1.18+. You may use your existing world or create a new one. 
 

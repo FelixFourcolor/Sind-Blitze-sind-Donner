@@ -1,71 +1,59 @@
-# Sind Blitze sind Donner
-"Sind Blitze sind Donner" in Bach's St. Matthew Passion, arranged for Minecraft's noteblocks.
+# Sind Blitze, sind Donner
+"Sind Blitze, sind Donner" in Bach's St. Matthew Passion, arranged for Minecraft's noteblocks.
 
 Recording: https://youtu.be/38oW2-jAk6k
 
 ## Arrangement
-Noteblock's capabilities are quite limited, so lots of compromises had to be made.
-
-Key: G-sharp minor (transposed up 4 semitones from original)
-
-Tempo: Eighth note = 150 bpm (about 25% slower than a typical performance)
-
 Instrumentation:
-* Basso continuo: bass
-* Bass: guitar
-* Tenor: iron xylophone
-* Alto: bit
 * Soprano: flute
-* Viola, violin II, violin I: harp
-* Flute, oboe II, oboe I: bell 
+* Alto: bit
+* Tenor: iron xylophone
+* Bass: guitar
+* Oboe I, oboe II, flute: bell
+* Violin I, violin II, viola: harp
+* Continuo: bass
 
-While I try to keep the voices as close to original as possible, lots of individual notes and passages in the orchestra are transposed up or down an octave to fit their instrument's range.
+Transposed up 4 semitones to better fit noteblock's ranges. However, a few notes still do not fit, then they are either transposed up/down an octave or played by a different instrument, depending on which sounds better to me.
 
 ## Play requirement
-Minecraft java 1.18+.
-
-If your device supports it, turn on Directional Audio to enjoy the double orchestras & choruses in stereo.
+Minecraft java 1.18+
 
 ## Easy install 
-Copy the `World` folder into your saves. 
+Copy the [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/YouTube/World) folder into your saves.
 
 To obtain the folder, you may clone the repo or use third-party tools such as [Down-Git](https://minhaskamal.github.io/DownGit) to download it.
 
 ## Build from source
 ### Build requirements
-* python 3.10+
+* python >= 3.10, < 3.12
 * pip
-* git (optional)
 
 ### Overview of the build process
-The structure is *almost* auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes `coro1.json` and `coro2.json` which define the composition, and generates the structure inside an existing Minecraft world.
+The structure is *almost* auto-generated using [noteblock-generator](https://pypi.org/project/noteblock-generator/0.1.2.1/). The program takes [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/YouTube/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/YouTube/coro2.json) which define the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
-1. Install `noteblock-generator`:
+1. Install [noteblock-generator 0.1.2.1](https://pypi.org/project/noteblock-generator/0.1.2.1/):
     ```
-    pip install --upgrade noteblock-generator
+    pip install noteblock-generator==0.1.2.1
     ```
     Configure your PATH so that `noteblock-generator` is executable on the command line.
 
-2. Obtain `coro1.json` and `coro2.json`. You may clone the repo or download just those files.
+2. Obtain [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/YouTube/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/YouTube/coro2.json). You may clone the repo or download just those files.
 
-3. Obtain a world in Minecraft java 1.18+. You may use an existing world or create a new one. 
-
-    For maximum performance, create a new world in creative mode, peaceful difficulty, superflat type, and no generated structures.
+3. Obtain a world in Minecraft java 1.18+. You may use your existing world or create a new one. 
 
 4. If you are inside the world, exit it first. Then,
-
-    Generate:
     ```
-    noteblock-generator [path to coro1.json] [path to minecraft world] --clear -o + + -
+    noteblock-generator --clear [path to coro1.json] [path to minecraft world] --orientation + + -
 
-    noteblock-generator [path to coro2.json] [path to minecraft world] --clear -o + + +
+    noteblock-generator --clear [path to coro2.json] [path to minecraft world] --orientation + + +
     ```
 
-5. `noteblock-generator` is not capable of automatically handling double orchestras & choruses (yet), so this last step must be done manually.
+    (See [noteblock-generator](https://pypi.org/project/noteblock-generator/0.1.2.1/)'s documentation for explanation and more build options.)
 
-    Connect the two structures with a single redstone wire, like this: ![screenshot](screenshot.png)
+    Wait for the program to finish, then head inside.
 
-## License
-Do whatever you want.
+5. The generator is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
+
+    Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)

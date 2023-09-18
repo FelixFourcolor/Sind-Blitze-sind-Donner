@@ -3,7 +3,7 @@
 
 Recording: https://youtu.be/38oW2-jAk6k
 
-Note: The structure shown in the YouTube video was made at commit [e08cba0](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/e08cba0fd2dee93d267b618ae4f70846e8c5f646). A few improvements have been made since then. You can revert to this commit if you want an exact replica of what was shown in the video.
+Note: A few changes have been made since the release of the YouTube video. You can switch to the [YouTube branch](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/YouTube) for an exact replica of what was shown in the video. Otherwise, stay on the main branch for the latest version.
 
 ## Arrangement
 Instrumentation:
@@ -26,10 +26,8 @@ Copy the [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/
 To obtain the folder, you may clone the repo or use third-party tools such as [Down-Git](https://minhaskamal.github.io/DownGit) to download it.
 
 ## Build from source
-Note: The structure shown in the YouTube video was generated using [noteblock-generator 0.1.2.1](https://pypi.org/project/noteblock-generator/0.1.2.1/). Besides reverting to commit [e08cba0](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/e08cba0fd2dee93d267b618ae4f70846e8c5f646), you must also install this version to get an exact replica of what was shown in the video.
-
 ### Build requirements
-* python 3.10+
+* python >=3.10, < 3.12
 * pip
 
 ### Overview of the build process
@@ -58,6 +56,6 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
 
     Wait for the program to finish, then head inside.
 
-5. [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator) is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
+5. The generator is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
 
     Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)

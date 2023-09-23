@@ -49,9 +49,9 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
 
 4. If you are inside the world, exit it first. Then,
     ```
-    noteblock-generator --clear [path to coro1.json] [path to minecraft world] --orientation + + -
+    noteblock-generator [path to coro1.json] [path to minecraft world] --orientation + + -
 
-    noteblock-generator --clear [path to coro2.json] [path to minecraft world] --orientation + + +
+    noteblock-generator [path to coro2.json] [path to minecraft world] --orientation + + +
     ```
 
     (See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.)

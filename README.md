@@ -20,7 +20,7 @@ Transposed up 4 semitones to better fit noteblock's ranges. However, a few notes
 ## Play requirements
 Minecraft java 1.19+. 
 
-Go to Music & Sounds setting, turn on Directional Audio and turn down Jukebox/Note Blocks sound level to 50% (otherwise it's too loud).
+Go to Music & Sounds settings and turn on Directional Audio. Optionally, turn down Master Volume to about 60% to 70%, otherwise it might be a bit too loud (but of course this depends on your speakers).
 
 ## Easy install 
 Copy the [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/World) folder into your saves.
@@ -61,3 +61,8 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
 5. The generator is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
 
     Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)
+
+## License
+While Minecraft remains Mojang's property and is subjected to their terms of service, the source code used to generate this structure is given to the public domain. You are free to do whatever you want with it, as long as it complies with Minecraft's terms of service, without any restrictions from my end.
+
+See [LICENSE](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/LICENSE) for more details.

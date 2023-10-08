@@ -3,7 +3,7 @@
 
 Recording: https://youtu.be/38oW2-jAk6k
 
-Note: A few changes have been made since the release of the YouTube video. You can switch to the [YouTube branch](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/YouTube) for an exact replica of what was shown in the video. Otherwise, stay on the main branch for the latest version.
+Note: Lots of changes have been made since the release of the YouTube video. You can switch to the [YouTube branch](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/YouTube) for an exact replica of what was shown in the video. Otherwise, stay on the main branch for the latest version.
 
 ## Arrangement
 Instrumentation:
@@ -11,9 +11,9 @@ Instrumentation:
 * Alto: bit
 * Tenor: iron xylophone
 * Bass: guitar
-* Oboe I, oboe II, flute: bell
-* Violin I, violin II, viola: harp
-* Continuo: bass
+* Oboe I & II, flute: bell
+* Violin I & II, viola: harp
+* Cello: bass
 
 Transposed up 4 semitones to better fit noteblock's ranges. However, a few notes still do not fit, then they are either transposed up/down an octave or played by a different instrument, depending on which sounds better to me.
 
@@ -33,7 +33,7 @@ To obtain the folder, you may clone the repo or use third-party tools such as [D
 * pip
 
 ### Overview of the build process
-The structure is *almost* auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro2.json) which define the composition, and generates the structure inside an existing Minecraft world.
+The structure is auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes [src](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/src) which defines the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
@@ -43,24 +43,16 @@ The structure is *almost* auto-generated using [noteblock-generator](https://git
     ```
     Configure your PATH so that `noteblock-generator` is executable on the command line.
 
-2. Obtain [coro1.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro1.json) and [coro2.json](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/coro2.json). You may clone the repo or download just those files.
+2. Obtain [src](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/src). You may clone the repo or download just that folder.
 
 3. Obtain a world in Minecraft java 1.19+. You may use your existing world or create a new one.
 
 4. If you are inside the world, exit it first. Then,
     ```
-    noteblock-generator [path to coro1.json] [path to minecraft world] --orientation + + -
-
-    noteblock-generator [path to coro2.json] [path to minecraft world] --orientation + + +
+    noteblock-generator [path to src] [path to minecraft world]
     ```
 
     (See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.)
-
-    Wait for the program to finish, then head inside.
-
-5. The generator is not capable of automatically handling double orchestras (yet), so this last step must be done manually.
-
-    Connect the two structures with a single redstone dust, like this: ![screenshot](screenshot.png)
 
 ## License
 While Minecraft remains Mojang's property and is subjected to their terms of service, the source code used to generate this structure is given to the public domain. You are free to do whatever you want with it, as long as it complies with Minecraft's terms of service, without any restrictions from my end.

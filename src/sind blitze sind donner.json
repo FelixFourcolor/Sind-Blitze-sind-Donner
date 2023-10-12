@@ -6,12 +6,13 @@
     "transpose": 4,
     "voices": [
         [
-            "coro1/winds/oboe II.json",
+            "coro1/winds/flute.json",
             "coro1/winds/oboe I.json",
             "coro1/winds/flute.json",
+            "coro1/winds/oboe II.json",
             "coro1/strings/viola.json",
-            "coro1/strings/violin II.json",
             "coro1/strings/violin I.json",
+            "coro1/strings/violin II.json",
             "coro1/strings/cello.json",
             "coro1/voices/tenor.json",
             "coro1/voices/bass.json",
@@ -20,12 +21,13 @@
         ],
 
         [
-            "coro2/winds/oboe II.json",
+            "coro2/winds/flute.json",
             "coro2/winds/oboe I.json",
             "coro2/winds/flute.json",
+            "coro2/winds/oboe II.json",
             "coro2/strings/viola.json",
-            "coro2/strings/violin II.json",
             "coro2/strings/violin I.json",
+            "coro2/strings/violin II.json",
             "coro2/strings/cello.json",
             "coro2/voices/tenor.json",
             "coro2/voices/bass.json",

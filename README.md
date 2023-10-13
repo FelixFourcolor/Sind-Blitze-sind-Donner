@@ -19,7 +19,7 @@ Transposed up 4 semitones to better fit noteblock's ranges. However, a few notes
 ## Play requirements
 Minecraft java 1.19+. 
 
-Go to Music & Sounds settings and turn on Directional Audio. Optionally, turn down Master Volume to about 60% to 70%, otherwise it might be a bit too loud (but of course this depends on your speakers).
+Go to Music & Sounds settings and turn on Directional Audio. Optionally, turn down Master Volume to about 50% to 60%, otherwise it might be a bit too loud (but of course this depends on your speakers).
 
 Listening on headphones (or good stereo speakers) is strongly recommdended to fully enjoy the double orchestra.
 

@@ -1,17 +1,14 @@
 # Sind Blitze, sind Donner
 "Sind Blitze, sind Donner" in Bach's St. Matthew Passion, arranged for Minecraft's noteblocks.
 
-Recording: https://youtu.be/38oW2-jAk6k
-
-Note: Lots of changes have been made since the release of the YouTube video. You can switch to the [YouTube branch](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/YouTube) for an exact replica of what was shown in the video. Otherwise, stay on the main branch for the latest version.
-
 ## Arrangement
 Instrumentation:
 * Soprano: flute
 * Alto: bit
 * Tenor: iron xylophone
 * Bass: guitar
-* Oboe I & II, flute: bell
+* Flute I & II: bell 
+* Oboe I & II: flute
 * Violin I & II, viola: harp
 * Cello: bass
 
@@ -21,6 +18,8 @@ Transposed up 4 semitones to better fit noteblock's ranges. However, a few notes
 Minecraft java 1.19+. 
 
 Go to Music & Sounds settings and turn on Directional Audio. Optionally, turn down Master Volume to about 60% to 70%, otherwise it might be a bit too loud (but of course this depends on your speakers).
+
+Listening on headphones (or very good stereo speakers) is strongly recommdended to fully enjoy the double orchestra.
 
 ## Easy install 
 Copy the [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/World) folder into your saves.
@@ -55,6 +54,6 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
     (See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.)
 
 ## License
-While Minecraft remains Mojang's property and is subjected to their terms of service, the source code used to generate this structure is given to the public domain. You are free to do whatever you want with it, as long as it complies with Minecraft's terms of service, without any restrictions from my end.
+While Minecraft remains Mojang's property and is subjected to their terms of service, the source code used to generate this structure is given to the public domain. You are free use it however you want, as long as such usage complies with Minecraft's terms of service, without any restrictions from my end.
 
 See [LICENSE](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/blob/main/LICENSE) for more details.

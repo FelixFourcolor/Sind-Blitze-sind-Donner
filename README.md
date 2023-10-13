@@ -1,6 +1,8 @@
 # Sind Blitze, sind Donner
 "Sind Blitze, sind Donner" in Bach's St. Matthew Passion, arranged for Minecraft's noteblocks.
 
+Recording: https://youtu.be/oeLPMQ-b7cQ
+
 ## Arrangement
 Instrumentation:
 * Soprano: flute
@@ -19,7 +21,7 @@ Minecraft java 1.19+.
 
 Go to Music & Sounds settings and turn on Directional Audio. Optionally, turn down Master Volume to about 60% to 70%, otherwise it might be a bit too loud (but of course this depends on your speakers).
 
-Listening on headphones (or very good stereo speakers) is strongly recommdended to fully enjoy the double orchestra.
+Listening on headphones (or good stereo speakers) is strongly recommdended to fully enjoy the double orchestra.
 
 ## Easy install 
 Copy the [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/World) folder into your saves.
@@ -51,7 +53,9 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
     noteblock-generator [path to src] [path to minecraft world]
     ```
 
-    (See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.)
+    See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.
+
+    Warning: The pre-built [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/World) was generated using a modified version of `noteblock-generator` that allows the double orchestra to use two different themes. This feature is not ready to be published yet, so for now you can only choose one theme for the entire structure.   
 
 ## License
 While Minecraft remains Mojang's property and is subjected to their terms of service, the source code used to generate this structure is given to the public domain. You are free use it however you want, as long as such usage complies with Minecraft's terms of service, without any restrictions from my end.

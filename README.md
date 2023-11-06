@@ -34,11 +34,11 @@ To obtain the folder, you may clone the repo or use third-party tools such as [D
 * pip
 
 ### Overview of the build process
-The structure is auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes [src](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/src) which defines the composition, and generates the structure inside an existing Minecraft world.
+The structure is auto-generated using [noteblock-generator](https://pypi.org/project/noteblock-generator/). The program takes [src](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/src) which defines the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
-1. Install the lastest version of [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator):
+1. Install the lastest version of [noteblock-generator](https://pypi.org/project/noteblock-generator/):
     ```
     pip install --upgrade noteblock-generator
     ```
@@ -53,9 +53,9 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
     noteblock-generator [path to src] [path to minecraft world]
     ```
 
-    See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.
+    See [noteblock-generator](https://pypi.org/project/noteblock-generator/)for explanation and more build options.
 
-    Warning: The pre-built [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/World) was generated using a modified version of `noteblock-generator` that allows the double orchestra to use two different themes. This feature is not ready to be published yet, so for now you can only choose one theme for the entire structure.   
+    Warning: The pre-built [World](https://github.com/FelixFourcolor/Sind-Blitze-sind-Donner/tree/main/World) was generated using a modified version of noteblock-generator that allows the double orchestra to use two different themes. This feature is not ready to be published yet, so for now you can only choose one theme for the entire structure.
 
 ## License
 While Minecraft remains Mojang's property and is subjected to their terms of service, the source code used to generate this structure is given to the public domain. You are free use it however you want, as long as such usage complies with Minecraft's terms of service, without any restrictions from my end.
